@@ -3,9 +3,8 @@
 module ternary_tb(input [5600:1] bit_str,
                   input clk,
                   input rst,
-                  output [1400:1] out,
-                  output [2:0] now);
-    ternary TNR (bit_str, clk, rst, out, now);
+                  output [1400:1] out);
+    ternary TNR (bit_str, clk, rst, out);
     initial begin
         $dumpfile("dump.vcd");
         $dumpvars(1);
