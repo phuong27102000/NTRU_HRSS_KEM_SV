@@ -1,6 +1,6 @@
-module mod3_i8_o1(rst, clk, in, out);
-    
+module mod3_i8_o1(rst, clk, in, out);    
 //8 bit in, after 4 periods, return modulo 3 of in
+//rst must be turned off after in taking datas at least 1 period of clk
   	input rst,clk;
 	input [7:0] in;
 	output [1:0] out;
