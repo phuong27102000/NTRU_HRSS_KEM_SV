@@ -4,7 +4,7 @@ module ternary(bit_str, clk, rst, out);
 //bit_str has 5600 bit-length
 //1 iteration costs 6 periods of clk, INIT costs 1 periods of clk
 //There is 1400/8 = 175 iteration, so this module costs 175*6+1 = 1051 periods of clk
-//rst must be after bit_str 1 period of clk
+//rst must be turned off after bit_str taking datas at least 1 period of clk
     input[5600:1] bit_str;
     input clk,rst;
     output reg [1400:1] out;
