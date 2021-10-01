@@ -1,6 +1,6 @@
 `include "mod3_i8_o1.sv"
 `include "inc_i8_o8.sv"
-module ternary(bit_str, clk, rst, out, now);
+module ternary(bit_str, clk, rst, out);
 //bit_str has 5600 bit-length
 //1 iteration costs 6 periods of clk, INIT costs 1 periods of clk
 //There is 1400/8 = 175 iteration, so this module costs 175*6+1 = 1051 periods of clk
@@ -9,8 +9,7 @@ module ternary(bit_str, clk, rst, out, now);
     input clk,rst;
     output reg [1400:1] out;
     reg[5600:1] reg_in;
-    output reg[2:0] now;
-    reg[2:0] then;
+    reg[2:0] then, now;
     wire[7:0] v;
     wire mod3;
     localparam [2:0] INIT = 0, MOD3p1 = 1, MOD3p2 = 2, MOD3p3 = 3, MOD3p4 = 4, MOD3p5 = 5, DONE = 6, ENDING = 7;
