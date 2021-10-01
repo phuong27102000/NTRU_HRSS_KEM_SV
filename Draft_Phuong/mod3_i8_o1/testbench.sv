@@ -1,5 +1,4 @@
-// Code your testbench here
-// or browse Examples
+`include "mod3_i8_o1.sv"
 module testbench;
   reg [7:0] a;
   wire[7:0] out;
