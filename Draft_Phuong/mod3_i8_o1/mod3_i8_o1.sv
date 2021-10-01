@@ -1,12 +1,12 @@
-// Code your design here
 module mod3_i8_o1(rst, clk, in, out);
-//8 bit in
+    
+//8 bit in, after 4 periods, return modulo 3 of in
   	input rst,clk;
 	input [7:0] in;
 	output [1:0] out;
 	reg [7:0] regin;
 	reg [1:0] now, then;
-  parameter [1:0] state0 = 2'b00, state1 = 2'b01, state2 = 2'b11;
+	parameter [1:0] state0 = 2'b00, state1 = 2'b01, state2 = 2'b11;
 	
 	always @(regin[1:0] or now)
 		case (now)
