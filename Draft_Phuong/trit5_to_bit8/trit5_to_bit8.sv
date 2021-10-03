@@ -7,7 +7,7 @@ module trit5_to_bit8(rst, clk, a, out, count, x, z);
 //negtive clk
 //use external count, positive clk
 //after 4 periods, return the output
-//rst must be positive at least only half a period to reset the instantiation
+//rst must be positive at least only half a period (recommend a period) to reset the instantiation
     input [9:0] a;
     input [1:0] count;
     input rst,clk;
