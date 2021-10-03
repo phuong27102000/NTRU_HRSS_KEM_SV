@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1633299241" />
+    <testcase name="test_mod3" classname="test" file="C:\Users\phuon_lx53\source\repos\Verify_NTRU\small_parts\add\test.py" lineno="7" time="5.7987494468688965" sim_time_ns="131072.001" ratio_time="22603.494460477832" />
+  </testsuite>
+</testsuites>
