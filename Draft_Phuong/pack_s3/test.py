@@ -30,7 +30,7 @@ async def test_mod3(dut):
         dut.rst <= 1    
         dut.a <= int.from_bytes(inp, "big")
         await triggers.RisingEdge(dut.clk)
-        await Timer(1, units = "ns")
+        await Timer(2, units = "ns")
         dut.rst <= 0
         b = pack_s3_model(v)
         expect = int.from_bytes(bit_handle.arr_to_str(b), "big")
