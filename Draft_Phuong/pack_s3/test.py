@@ -15,10 +15,10 @@ async def test_mod3(dut):
     cocotb.fork(Clock(dut.clk, 1, units="ns").start())
     dut._log.info("Running test...")
     fail = 0
-    trits = {0: [0,0],1: [0,0],-1: [1,1]}
+    trits = {0: [0,0], 1: [1,0], -1: [1,1]}
     dut.rst <= 0
     v, trit_arr = [], []
-    for m in range (256):
+    for m in range (10):
         v.clear()
         trit_arr.clear()
         for i in range(700):
@@ -38,11 +38,10 @@ async def test_mod3(dut):
         try:
             if dut.out.value != expect:
                 fail = 1
-                report.write("When in = %X, out = %X, but I expect it = %X\n" %(int(dut.a.value), int(dut.out.value), expect))
+                report.write("When in = %s, out = %s, but I expect it = %s\n" %( bin(dut.a.value), bin(dut.out.value), bin(expect) ) )
         except:
             fail = 1
-            report.write("When in = %X, I expect it = %X\n" %(int(dut.a.value),expect))
-        
+            report.write("When in = %s, I expect it = %s\n" %( bin(dut.a.value), bin(expect) ) )  
     if fail == 0: report.write("------VERIFICATION SUCCEED------")
     else: report.write("------VERIFICATION FAIL------")
     dut._log.info("Running test...done")

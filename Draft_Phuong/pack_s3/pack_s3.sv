@@ -1,14 +1,13 @@
 `include "trit5_to_bit8.sv"
 `include "inc_i8_o8.sv"
 
-module pack_s3(rst, clk, a, out, work, now);
+module pack_s3(rst, clk, a, out)
+//hold rst at 1 for 2 periods of clk
     input [1400:1] a;
     input rst, clk;
     output reg[1120:1] out;
-    output work;
-    output [2:0] now;
     localparam [2:0] INIT = 7, TRANSp1 = 0, TRANSp2 = 1, TRANSp3 = 2, TRANSp4 = 3, WAIT = 4, DONE = 5, ENDING = 6;
-    localparam [7:0] ITER_BOUND = 140;
+    localparam [7:0] ITER_BOUND = 139;
     reg[2:0] now, then;
     reg[7:0] count;
     wire[7:0] count_new, v;
@@ -26,11 +25,11 @@ module pack_s3(rst, clk, a, out, work, now);
             TRANSp2: then = TRANSp3;
             TRANSp3: then = TRANSp4;
             TRANSp4: then = WAIT;
-            WAIT: then = DONE;
-            DONE: begin
+            WAIT: begin
                 if ( count == ITER_BOUND ) then = ENDING;
-                else then = INIT;
+                else then = DONE;
             end
+            DONE: then = INIT;
             ENDING: then = ENDING;
             default: then = 2'bxx;
         endcase
@@ -49,7 +48,7 @@ module pack_s3(rst, clk, a, out, work, now);
         else now <= then;
     
     always @(negedge clk)
-        work <= now[2] & ( ( ~now[2] ) | now[1] | now[0] );
+        work <=  now[2] & ( ( ~now[2] ) | now[1] | now[0] );
     
 // need more clearly      
     always @(posedge clk)
