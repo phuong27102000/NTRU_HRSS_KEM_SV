@@ -26,7 +26,7 @@ async def test_ternary(dut):
         if dut.out.value != expect:
             fail = 1
             report.write("When bit_str = %X, v = %s, but i expect it = %s\n" %(int(dut.bit_str.value),bin(int(dut.out.value)),bin(expect)))
-    if fail == 0: report.write("------VERIFICATION SUCCEED------")
-    else: report.write("------VERIFICATION FAIL------")
+    if fail == 0: report.write("------VERIFICATION SUCCEED------\n")
+    else: report.write("------VERIFICATION FAIL------\n")
     dut._log.info("Running test...done")
     report.close()
