@@ -42,7 +42,7 @@ async def test_mod3(dut):
         except:
             fail = 1
             report.write("When in = %s, I expect it = %s\n" %( bin(dut.a.value), bin(expect) ) )  
-    if fail == 0: report.write("------VERIFICATION SUCCEED------")
-    else: report.write("------VERIFICATION FAIL------")
+    if fail == 0: report.write("------VERIFICATION SUCCEED------\n")
+    else: report.write("------VERIFICATION FAIL------\n")
     dut._log.info("Running test...done")
     report.close()
