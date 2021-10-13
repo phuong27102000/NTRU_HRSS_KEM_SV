@@ -88,16 +88,11 @@ module theta_step3(a, d, out);
     input[319:0] d;
     output[1599:0] out;
 
-    genvar x,y,z;
-    generate
-        for (x = 0; x < 5; x = x+1) begin: loop1
-            for (y = 0; y < 5; y = y+1) begin: loop2
-                for (z = 0; z < 64; z = z+1)  begin: loop3
-                    assign out[320*y+64*x+z] = a[320*y+64*x+z] ^ d[64*x+z];
-                end
-            end
-        end
-    endgenerate
+    assign out[319:0] = a[319:0] ^ d[319:0];
+    assign out[639:320] = a[639:320] ^ d[319:0];
+    assign out[959:640] = a[959:640] ^ d[319:0];
+    assign out[1279:960] = a[1279:960] ^ d[319:0];
+    assign out[1599:1280] = a[1599:1280] ^ d[319:0];
 endmodule
 
 module rho(a, out);
