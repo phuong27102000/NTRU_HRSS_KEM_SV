@@ -16,9 +16,9 @@ async def test(dut):
     cocotb.fork(Clock(dut.clk, 1, units="ns").start())
     fail = 0
     v = []
-    for i in range(1):
+    for i in range(10):
         v.clear()
-        for i in range(1600):
+        for ii in range(1600):
             j = randint(0,1)
             v.append(j)
         inp = int.from_bytes(bit_handle.arr_to_str(v),"big")
