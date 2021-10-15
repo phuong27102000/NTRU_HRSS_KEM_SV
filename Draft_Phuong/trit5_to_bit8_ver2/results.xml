@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1634269740" />
+    <testcase name="test_mod3" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/trit5_to_bit8_ver2/test.py" lineno="10" time="0.662865400314331" sim_time_ns="1458.501" ratio_time="2200.297374562586" />
+  </testsuite>
+</testsuites>
