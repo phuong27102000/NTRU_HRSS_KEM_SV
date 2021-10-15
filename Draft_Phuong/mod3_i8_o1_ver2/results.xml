@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1634235524" />
+    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/mod3_i8_o1_ver2/test.py" lineno="7" time="0.018262147903442383" sim_time_ns="510.001" ratio_time="27926.671205190803" />
+  </testsuite>
+</testsuites>
