@@ -1,34 +1,36 @@
-module sha3_256(rst1, rst2, sp, ans, sp_keccak, clk, p, out);
+module sha3_256(ovr_rst, rst1, rst2, sp, ans, sp_keccak, clk, p, out);
     input[1088:1] p;
     input[1:0] count;
-    input rst1, rst2, sp, ans, sp_keccak, clk;
+    input ovr_rst, rst1, rst2, sp, ans, sp_keccak, clk;
     output[256:1] out;
-    reg[1600:1] s;
+    reg[1600:1] out;
     reg[1600:1] p;
     wire[1600:1] s_wire;
     wire[1600:1] z;
 
     always @ (posedge sp) begin
         if( rst1 )
-            s <= 0;
             p_reg <= p;
-        else
-            s <= out;
     end
 
-    always @ (posedge ans) begin
-        out <= s_wire;
+    always @ (posedge ans or posedge ovr_rst) begin
+        if( ovr_rst ) begin
+            out <= 0;
+        end
+        else begin
+            out <= s_wire;
+        end
     end
 
     always @ (posedge sp_keccak) begin
         if( sp )
             a <= z;
         else
-            s <= s_wire;
+            a <= s_wire;
     end
 
 
-    assign z = s ^ { 512'b0, p_reg};
+    assign z = out ^ { 512'b0, p_reg};
     keccak_p( .rst( rst2 ), .sp( sp ) , .clk( clk ), .s( a ), .out( s_wire ) );
 
 endmodule
