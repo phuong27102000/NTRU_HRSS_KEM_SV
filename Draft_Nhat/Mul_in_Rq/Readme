@@ -1,0 +1,2 @@
+Mul_in_Rq xuất ra kết quả sau 701 chu kì với chu kì đầu tiên là chu kì Reset các thanh ghi. 
+Hàm đổi từ array integer sang integer được lưu trong sample (bao gồm arr_to_str_ternary và arr_to_str_integer)
