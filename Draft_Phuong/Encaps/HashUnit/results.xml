@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1634574020" />
+    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/Encaps/HashUnit/test.py" lineno="11" time="191.12471771240234" sim_time_ns="2002.001" ratio_time="10.474840847181994" />
+  </testsuite>
+</testsuites>
