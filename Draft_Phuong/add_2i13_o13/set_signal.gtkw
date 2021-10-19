@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Tue Oct 19 17:06:58 2021
+[*]
+[dumpfile] "/home/phuong/Documents/NTRU/Draft_Phuong/add_2i13_o13/dump.vcd"
+[dumpfile_mtime] "Tue Oct 19 17:06:43 2021"
+[dumpfile_size] 51004
+[savefile] "/home/phuong/Documents/NTRU/Draft_Phuong/add_2i13_o13/set_signal.gtkw"
+[timestart] 0
+[size] 1368 829
+[pos] -1 -1
+*-11.756336 250650 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 273
+[signals_width] 210
+[sst_expanded] 1
+[sst_vpaned_height] 217
+@24
+add_2i13_o13.x1[12:0]
+add_2i13_o13.x2[12:0]
+@28
+add_2i13_o13.out[12:0]
+@23
+add_2i13_o13.check_holder[12:0]
+[pattern_trace] 1
+[pattern_trace] 0
