@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1634551486" />
-    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/Encaps/TernaryUnit/test.py" lineno="10" time="3.1752235889434814" sim_time_ns="15020.001" ratio_time="4730.375855200084" />
-  </testsuite>
-</testsuites>
