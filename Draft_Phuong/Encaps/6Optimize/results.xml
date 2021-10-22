@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1634893847" />
+    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/Encaps/6Optimize/test.py" lineno="11" time="227.53513765335083" sim_time_ns="1253.401" ratio_time="5.508604134406498" />
+  </testsuite>
+</testsuites>

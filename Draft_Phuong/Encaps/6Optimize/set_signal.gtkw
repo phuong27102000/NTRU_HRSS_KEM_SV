@@ -1,0 +1,53 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Oct 22 09:19:24 2021
+[*]
+[dumpfile] "/home/phuong/Documents/NTRU/Draft_Phuong/Encaps/6Optimize/dump.vcd"
+[dumpfile_mtime] "Fri Oct 22 09:14:35 2021"
+[dumpfile_size] 5470647
+[savefile] "/home/phuong/Documents/NTRU/Draft_Phuong/Encaps/6Optimize/set_signal.gtkw"
+[timestart] 0
+[size] 1368 829
+[pos] -1 -1
+*-10.977206 3500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 273
+[signals_width] 170
+[sst_expanded] 1
+[sst_vpaned_height] 217
+@29
+encapsulate.clk
+@28
+encapsulate.ovr_rst1
+encapsulate.ovr_rst2
+@22
+encapsulate.h[25:0]
+encapsulate.h_mem[9113:1]
+encapsulate.bits[16:1]
+@28
+encapsulate.sipo_t_clk
+encapsulate.sipo_u_clk
+@22
+encapsulate.rm[2800:1]
+@28
+encapsulate.p3_rst
+encapsulate.p3_count[1:0]
+@22
+encapsulate.prm[1088:1]
+@28
+encapsulate.sipo_p_clk
+encapsulate.sipo_p_stop
+encapsulate.hash_rst1
+encapsulate.hash_rst2
+encapsulate.hash_clk
+encapsulate.hash_keccak
+encapsulate.hash_ans
+encapsulate.hash_fin
+@22
+encapsulate.s_next[1600:1]
+encapsulate.k[256:1]
+@28
+encapsulate.ter_done
+encapsulate.up_rq0_done
+encapsulate.halt_n
+[pattern_trace] 1
+[pattern_trace] 0
