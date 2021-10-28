@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Mon Oct 25 23:14:56 2021
+[*]
+[dumpfile] "/home/phuong/Documents/NTRU/Draft_Phuong/unpack_s3/dump.vcd"
+[dumpfile_mtime] "Mon Oct 25 23:08:23 2021"
+[dumpfile_size] 95637
+[savefile] "/home/phuong/Documents/NTRU/Draft_Phuong/unpack_s3/set_signal.gtkw"
+[timestart] 61490
+[size] 1368 829
+[pos] -1 -1
+*-11.144102 66300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 273
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 217
+@28
+bit8_to_trit5.rst
+bit8_to_trit5.clk
+@24
+[color] 6
+bit8_to_trit5.a[7:0]
+[color] 6
+bit8_to_trit5.a_reg[7:0]
+@28
+bit8_to_trit5.count[2:0]
+bit8_to_trit5.trit[1:0]
+@24
+[color] 6
+bit8_to_trit5.pow3_1[7:0]
+[color] 6
+bit8_to_trit5.x1[7:0]
+[color] 6
+bit8_to_trit5.pow3_2[7:0]
+[color] 6
+bit8_to_trit5.x2[7:0]
+[color] 6
+bit8_to_trit5.x[7:0]
+@22
+bit8_to_trit5.x[7:0]
+bit8_to_trit5.out[9:0]
+@23
+bit8_to_trit5.check_holder[9:0]
+[pattern_trace] 1
+[pattern_trace] 0
