@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Thu Oct 28 12:43:11 2021
+[*]
+[dumpfile] "/home/phuong/Documents/NTRU/Draft_Phuong/poly_lift/inverse_phi1/dump.vcd"
+[dumpfile_mtime] "Thu Oct 28 12:42:47 2021"
+[dumpfile_size] 12330
+[savefile] "/home/phuong/Documents/NTRU/Draft_Phuong/poly_lift/inverse_phi1/set_signal.gtkw"
+[timestart] 0
+[size] 1368 829
+[pos] -51 -51
+*0.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 273
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 217
+@28
+inverse_phi1.clk
+@22
+inverse_phi1.init[3:0]
+@28
+inverse_phi1.rst
+@29
+inverse_phi1.spe_case[1:0]
+@28
+inverse_phi1.prev_state[1:0]
+inverse_phi1.state[1:0]
+inverse_phi1.next_state[1:0]
+inverse_phi1.next2_state[1:0]
+[pattern_trace] 1
+[pattern_trace] 0
