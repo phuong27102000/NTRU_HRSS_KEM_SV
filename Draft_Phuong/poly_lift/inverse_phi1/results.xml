@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1635431883" />
-    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/poly_lift/inverse_phi1/test.py" lineno="7" time="0.0312504768371582" sim_time_ns="234.201" ratio_time="7494.317645787875" />
-  </testsuite>
-</testsuites>
