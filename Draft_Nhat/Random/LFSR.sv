@@ -1,7 +1,7 @@
 module LFSR (
-	input logic clk,
-	input logic rst,
-	output logic [256:1] coins
+	input wire clk,
+	input wire rst,
+	output reg [256:1] coins
 	);
 	integer i;
 	wire feedback_256= coins[256];
