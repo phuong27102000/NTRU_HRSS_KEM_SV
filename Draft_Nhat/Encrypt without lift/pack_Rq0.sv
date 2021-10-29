@@ -1,6 +1,6 @@
 module pack_Rq0(
-	input logic [9113:1]c,
-	output logic [9104:1]cnew
+	input wire [9113:1]c,
+	output wire [9104:1]cnew
 	);
 	generate
 		for (genvar i=1;i<=1137;i=i+1)begin
