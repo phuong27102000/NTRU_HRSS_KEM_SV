@@ -1,7 +1,7 @@
 module Add_in_Rq (
-	input logic [9113:1] v,
-	input logic [9113:1] m1,
-	output logic [9113:1] c
+	input wire [9113:1] v,
+	input wire [9113:1] m1,
+	output wire [9113:1] c
 	);
 	genvar i;
 	generate
