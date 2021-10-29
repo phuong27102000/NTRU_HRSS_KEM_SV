@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1635553152" />
+    <testcase name="test" classname="test" file="/home/phuong/Documents/NTRU/Draft_Phuong/poly_lift_ver2/test.py" lineno="11" time="5691.951706171036" sim_time_ns="362.201" ratio_time="0.06363388494798947" />
+  </testsuite>
+</testsuites>
