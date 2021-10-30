@@ -14,7 +14,7 @@ module LFSR (
 	
 	wire feedback_8_LFSR_2= coins_2[8];
 	wire feedback_6_LFSR_2= coins_2[6];
-	wire feedback_5_LFSR_2= coins_2[6];	
+	wire feedback_5_LFSR_2= coins_2[5];	
 	wire feedback_4_LFSR_2= coins_2[4];
 	
 	always @(posedge clk) begin
