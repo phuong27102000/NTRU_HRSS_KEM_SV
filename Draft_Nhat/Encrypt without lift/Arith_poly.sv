@@ -87,3 +87,16 @@ module adder4bit (in1, in2, cin, out, cout);
 	adder adder_3 (.in1(in1[2]), .in2(in2[2]), .cin(cout_2), .out(out[2]), .cout(cout_3));
 	adder adder_4 (.in1(in1[3]), .in2(in2[3]), .cin(cout_3), .out(out[3]), .cout(cout));
 endmodule
+
+module ArithmeticUnit (e, h, r, r_next ,e_next);
+	parameter NUM_WIDTH_LENGTH=13;
+	input wire[NUM_WIDTH_LENGTH-1:0] e, h;
+	input wire r,r_next;
+	output wire [NUM_WIDTH_LENGTH-1:0]e_next;
+	wire [NUM_WIDTH_LENGTH-1:0] out_xor,e_adder;
+	
+	Xor_N_bit entity_0 ( .h(h), .r(r_next), .out_xor(out_xor));
+	carryselectadder entity_1 ( .in1(e), .in2(out_xor), .cin(r_next) ,.out(e_adder));
+	mux_N entity_2 (.in1(e), .in2(e_adder), .sel(r), .out(e_next));
+
+endmodule
