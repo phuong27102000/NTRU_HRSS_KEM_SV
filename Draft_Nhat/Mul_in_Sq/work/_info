@@ -1,0 +1,701 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Study/NCKH/Draft_Nhat/New folder
+vadder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1636995442
+!i10b 1
+!s100 e0E[_D<RBWN8;HdLH2_nh3
+IoQ?Xz8QFd]AAkWn[0WSEO2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 ArithmeticUnit_sv_unit
+S1
+Z4 dE:/Study/NCKH/Draft_Nhat/Mul_in_Sq
+Z5 w1636995336
+Z6 8E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/ArithmeticUnit.sv
+Z7 FE:/Study/NCKH/Draft_Nhat/Mul_in_Sq/ArithmeticUnit.sv
+L0 272
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1636995442.000000
+Z10 !s107 E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/ArithmeticUnit.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/ArithmeticUnit.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vadder4bit
+R0
+R1
+!i10b 1
+!s100 f4>bi=O?4T_TT0Zi;j<Nz0
+IeM_ohd<D9fjN^OjObK7h41
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 281
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vAnd_row_1
+R0
+R1
+!i10b 1
+!s100 FY>PNcmmnnfzTjaKL8a>V0
+InhE>gg7dJhSW=Ul9_bK>T2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 55
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_1
+vAnd_row_10
+R0
+R1
+!i10b 1
+!s100 ?D@nd`ASm4O0PL5;df4OT1
+I6Yzfmmbk^mX0fhAzf]g=V3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 159
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_10
+vAnd_row_11
+R0
+R1
+!i10b 1
+!s100 ?WN^9fhR8BEQjO<l0G`@]3
+IBKEKIBiJdGJdCTYRHg=7i0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 171
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_11
+vAnd_row_12
+R0
+R1
+!i10b 1
+!s100 =X6cJXdS1^IXz`DCVnSeG2
+InzhPGi[gkkc;19QN6kmzh1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 183
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_12
+vAnd_row_13
+R0
+R1
+!i10b 1
+!s100 F;ge4Pi:F_;N0H:FmJmoj3
+I[d>EQOeD>LQ[hF4652X8L0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 195
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_13
+vAnd_row_2
+R0
+R1
+!i10b 1
+!s100 oKB7ajJDCI?SAU1=SS]HL1
+IF?h^El6C0^N[5RbiCO0aT1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 65
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_2
+vAnd_row_3
+R0
+R1
+!i10b 1
+!s100 9^H6@]BPefzeGJM3VJkIH0
+IN;^W3fZ85IMKKHA:aGnEA3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 76
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_3
+vAnd_row_4
+R0
+R1
+!i10b 1
+!s100 ON9L24P2RAQMn5`38HA0[2
+IRPImgi`Xo[I3>RR`Pcok]3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 87
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_4
+vAnd_row_5
+R0
+R1
+!i10b 1
+!s100 k]K52NedXhQ>SBBS<<VgS3
+IDR5oz]OAd>kNUe_DNMhHJ2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 99
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_5
+vAnd_row_6
+R0
+R1
+!i10b 1
+!s100 ljZCZ^;HXWF^64]][0VY83
+IM<46gc1^OH`@d1zF9^^E62
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 111
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_6
+vAnd_row_7
+R0
+R1
+!i10b 1
+!s100 Yb0>8bTmNi3aN>;1C<LlS1
+IkhDnW>UK?Z<hJ9cj?]INZ0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 123
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_7
+vAnd_row_8
+R0
+R1
+!i10b 1
+!s100 RU[NaC74BahSVXmW^_T910
+IH?S_[Yf0beC7ciEe8A8RT0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 135
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_8
+vAnd_row_9
+R0
+R1
+!i10b 1
+!s100 3_DUHgTkPkC;H@7^`I]eD2
+IdAPYAJ37gdo_M;GI:ROKj2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 147
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@and_row_9
+vArithmeticUnit
+R0
+R1
+!i10b 1
+!s100 jRLA?2anXK;EoT3iLj4c`3
+I`SDMk6oJ<am=;aQKNGC9@1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@arithmetic@unit
+vCarryselectadder
+R0
+R1
+!i10b 1
+!s100 azAi7jKgAT@KG8_XlF53^1
+IV^o7V>aV;1Y[@Vaz0zAb@2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 202
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@carryselectadder
+vlift_ternary_gen
+R0
+R1
+!i10b 1
+!s100 >`e<`6Ri]obO1gLTJLI:C1
+I^_Q61QMG^f<WDB9W?Bk252
+R2
+Z14 !s105 poly_ternary_gen_sv_unit
+S1
+R4
+Z15 w1636993933
+Z16 8E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_ternary_gen.sv
+Z17 FE:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_ternary_gen.sv
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+Z18 !s107 E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_ternary_gen.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_ternary_gen.sv|
+!i113 1
+R12
+R13
+vMultiply
+R0
+R1
+!i10b 1
+!s100 C<R7;GmY2Vf9g_k]GD1NZ0
+IlNMD_PmDCJOPnaP6>5Se10
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@multiply
+vmux2to1
+R0
+R1
+!i10b 1
+!s100 6kQX;QACa2=UYfgaZ]OKg2
+I:L5f?]5g1^ZPl<0]@f]=70
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 224
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmux4
+R0
+R1
+!i10b 1
+!s100 j<oaifAolT=efTK`RkhzZ2
+I4Y_iMDI=4>miZ<4KAHak=1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 230
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmux_N
+R0
+R1
+!i10b 1
+!s100 3gY1G>>E_R0DZTZ?k>BiI2
+I:i:nZ;;Gl@m]gnVk;fhbF3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 240
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+nmux_@n
+vpoly_sq_gen
+R0
+R1
+!i10b 1
+!s100 ?hnfMSKODA<e`di3`i6d]1
+I>I3kE@?V_n?:lifGo8_Li0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+vpoly_ternary_gen
+R0
+!s110 1636987095
+!i10b 1
+!s100 @hnjk5_g8D8jDIh@HFSPQ3
+IYCnkDM?j=WW9zgPMRmNUM0
+R2
+R14
+S1
+R4
+w1635511043
+R16
+R17
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1636987095.000000
+R18
+R19
+!i113 1
+R12
+R13
+vpoly_test
+R0
+R1
+!i10b 1
+!s100 Fzh?WjO;LIB7jYY>AeDQU1
+IgPS@5`TnJdWI^ozd1=Aoi1
+R2
+!s105 poly_test_sv_unit
+S1
+R4
+w1636993950
+8E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_test.sv
+FE:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_test.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/poly_test.sv|
+!i113 1
+R12
+R13
+vpolynomialmultiplication
+R0
+R1
+!i10b 1
+!s100 GjUISTZ^HZdWn?kWzF>Y?1
+IP_?0eFN]jf=PY0HcK4ThG1
+R2
+!s105 polynomialmultipliaction_sv_unit
+S1
+R4
+w1636995437
+8E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/polynomialmultipliaction.sv
+FE:/Study/NCKH/Draft_Nhat/Mul_in_Sq/polynomialmultipliaction.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/polynomialmultipliaction.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|E:/Study/NCKH/Draft_Nhat/Mul_in_Sq/polynomialmultipliaction.sv|
+!i113 1
+R12
+R13
+vRegfile
+R0
+R1
+!i10b 1
+!s100 MT2QS^Nb<=[Xoo9AcS9Yz3
+IQ>KIWdjlJ:[:JjFETGmol2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 256
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@regfile
+vXor_N_bit
+R0
+R1
+!i10b 1
+!s100 M8Z@Wknm[0V78`2<TI66c1
+IZcLd3Eo`3GR4>?cF5i[L[1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 248
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@xor_@n_bit
